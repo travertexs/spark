@@ -9,8 +9,8 @@ tasks.withType(JavaCompile) {
 
 dependencies {
     implementation project(':spark-common')
-    implementation 'net.kyori:adventure-platform-bukkit:4.2.0'
-    paperweight.devBundle("dev.folia", "1.20.1-R0.1-SNAPSHOT")
+    implementation 'net.kyori:adventure-platform-bukkit:4.3.1'
+    compileOnly 'com.destroystokyo.paper:paper-api:1.16.4-R0.1-SNAPSHOT'
     
     // placeholders
     compileOnly 'me.clip:placeholderapi:2.10.3'
